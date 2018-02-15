@@ -13,4 +13,7 @@ group :test do
   #help with require
   gem "rack-test", require: "rack/test"
   gem "rspec" #test
+  gem "factory_bot"
+  gem "ffaker"
+  gem 'database_cleaner'
 end
