@@ -4,6 +4,7 @@ gem "activerecord" #active record for database
 gem "sinatra-activerecord"
 gem 'pg' #postgree
 gem 'rake' #migration
+gem 'pg_search' #search
 
 group :development do
  gem "tux" #rails console
